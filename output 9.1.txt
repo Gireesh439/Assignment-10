@@ -1,0 +1,45 @@
+
+[1, 2, 0, 1, 2, 3, 4, 0, 1, 2]
+--- Sums by Day ---
+Day_Of_Week
+Friday       27231
+Monday       23758
+Saturday     23794
+Sunday       24984
+Thursday     30918
+Tuesday      23729
+Wednesday    27475
+Name: A, dtype: int32
+- Monthly Average -
+Month_Of_Year
+April        462.37
+August       450.00
+December     571.13
+February     515.11
+January      531.65
+July         478.26
+June         521.40
+March        452.19
+May          446.52
+November     540.80
+October      522.81
+September    490.00
+Name: A, dtype: float64
+- The maximum value for the first tertile is -
+A                                998
+My_Dates         2015-02-24 00:00:00
+Day_Of_Week                  Tuesday
+Month_Of_Year               February
+Name: 54, dtype: object
+- The maximum value for the second tertile is -
+A                                986
+My_Dates         2015-08-27 00:00:00
+Day_Of_Week                 Thursday
+Month_Of_Year                 August
+Name: 238, dtype: object
+- The maximum value for the third tertile is -
+A                                995
+My_Dates         2015-11-05 00:00:00
+Day_Of_Week                 Thursday
+Month_Of_Year               November
+Name: 308, dtype: object
